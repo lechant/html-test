@@ -1,0 +1,104 @@
+body{
+	 padding:0;
+	 margin:0;
+}
+
+.canvas{
+	 width:250px;
+	 height:250px;
+     margin:auto;
+     margin-top:250px;
+}
+
+.pixel{
+	 width:50px;
+	 height:50px;
+     box-sizing:border-box;
+	 border:1px solid grey;
+     float:left;
+}
+
+.pixel:nth-child(1){
+     background:black;
+     animation-name:color;
+     animation-duration:1s;
+     animation-fill-mode:forwards;
+}
+.pixel:nth-child(2),
+.pixel:nth-child(6){
+     background:black;
+     animation-name:color;
+     animation-duration:1s;
+     animation-delay:1s;
+     animation-fill-mode:forwards;
+}
+.pixel:nth-child(3),
+.pixel:nth-child(7),
+.pixel:nth-child(11){
+     background:black;
+     animation-name:color;
+     animation-duration:1s;
+     animation-delay:2s;
+     animation-fill-mode:forwards;
+}
+.pixel:nth-child(4),
+.pixel:nth-child(8),
+.pixel:nth-child(12),
+.pixel:nth-child(16){
+     background:black;
+     animation-name:color;
+     animation-duration:1s;
+     animation-delay:3s;
+     animation-fill-mode:forwards;
+}
+.pixel:nth-child(5),
+.pixel:nth-child(9),
+.pixel:nth-child(13),
+.pixel:nth-child(17),
+.pixel:nth-child(21){
+     background:black;
+     animation-name:color;
+     animation-duration:1s;
+     animation-delay:4s;
+     animation-fill-mode:forwards;
+}
+.pixel:nth-child(10),
+.pixel:nth-child(14),
+.pixel:nth-child(18),
+.pixel:nth-child(22){
+     background:black;
+     animation-name:color;
+     animation-duration:1s;
+     animation-delay:5s;
+     animation-fill-mode:forwards;
+}
+.pixel:nth-child(15),
+.pixel:nth-child(19),
+.pixel:nth-child(23){
+     background:black;
+     animation-name:color;
+     animation-duration:1s;
+     animation-delay:6s;
+     animation-fill-mode:forwards;
+}
+.pixel:nth-child(20),
+.pixel:nth-child(24){
+     background:black;
+     animation-name:color;
+     animation-duration:1s;
+     animation-delay:7s;
+     animation-fill-mode:forwards;
+}
+.pixel:nth-child(25){
+     background:black;
+     animation-name:color;
+     animation-duration:1s;
+     animation-delay:8s;
+     animation-fill-mode:forwards;
+}
+
+
+@keyframes color{
+     0%{background:black;}
+     100%{background:white;}
+}
